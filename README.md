@@ -1,7 +1,7 @@
-# [SynthEdit @ dspCentral.info](http://synthedit.dspcentral.info)
+# [dspCentral.info](http://synthedit.dspcentral.info)
 
-A repository of all things created with and for SynthEdit.
+The landing site/hub for dspcentral.info, the audio academia network.
 
-* Source: [https://github.com/resonancedesign/synthedit.dspcentral.info](https://github.com/resonancedesign/synthedit.dspcentral.info)
-* Homepage: [http://synthedit.dspcentral.info](http://synthedit.dspcentral.info)
+* Source: [https://github.com/resonancedesign/dspcentral.info](https://github.com/resonancedesign/dspcentral.info)
+* Homepage: [http://dspcentral.info](http://synthedit.dspcentral.info)
 * Twitter: [@dspcentral](http://twitter.com/dspcentral)
