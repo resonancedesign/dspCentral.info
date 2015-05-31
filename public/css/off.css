@@ -1,0 +1,320 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+#index {
+    height: 100%; 
+    position: relative;
+}
+
+.strip-padding {
+    padding: 0;
+}
+
+.coming-soon {
+    height: 172px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -86px;
+}
+
+.letters {
+    font-size: 5em;
+}
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes logo-move {
+    0% { 
+        left: -80%;
+        opacity: 0;
+    }
+    100% {
+        left: 0%; 
+        opacity: 1;
+    }
+}
+
+@keyframes logo-move {
+    0% { 
+        left: -80%;
+        opacity: 0;
+    }
+    100% {
+        left: 0%; 
+        opacity: 1;
+    }
+}
+
+#d-green,
+#s-blue,
+#p-purple,
+#C-orange,
+#e-orange,
+#n-orange,
+#t-orange,
+#r-orange,
+#a-orange,
+#l-orange,
+#dot-pink,
+#i-pink,
+#n-pink,
+#f-pink,
+#o-pink {
+    /*animation-name*/
+    -webkit-animation-name: fade-in;
+    -moz-animation-name: fade-in;
+    -ms-animation-name: fade-in;
+    -o-animation-name: fade-in;
+    animation-name: fade-in;
+
+    /*animation-duration*/
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+#d-green {
+    color: #5e9f00;
+
+    /*animation-delay*/
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#s-blue {
+    color: #436bdb;
+
+    /*animation-delay*/
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+#p-purple {
+    color: #564578;
+
+    /*animation-delay*/
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -ms-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+#C-orange,
+#e-orange,
+#n-orange,
+#t-orange,
+#r-orange,
+#a-orange,
+#l-orange {
+    color: #ff3e00;
+}
+
+#C-orange {
+    max-width: 100px;
+    display: inline-block;
+    line-height: 5em;
+    padding-bottom: 25px;
+    /*animation-delay*/
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+#e-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+#n-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    -ms-animation-delay: 7s;
+    -o-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+#t-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    -o-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+#r-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    animation-delay: 9s;
+}
+
+#a-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+#l-orange {
+    /*animation-delay*/
+    -webkit-animation-delay: 11s;
+    -moz-animation-delay: 11s;
+    -ms-animation-delay: 11s;
+    -o-animation-delay: 11s;
+    animation-delay: 11s;
+}
+
+#dot-pink,
+#i-pink,
+#n-pink,
+#f-pink,
+#o-pink {
+    color: #ea004d;
+}
+
+#dot-pink {
+     /*animation-delay*/
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+#i-pink {
+     /*animation-delay*/
+    -webkit-animation-delay: 13s;
+    -moz-animation-delay: 13s;
+    -ms-animation-delay: 13s;
+    -o-animation-delay: 13s;
+    animation-delay: 13s;
+}
+
+#n-pink {
+     /*animation-delay*/
+    -webkit-animation-delay: 14s;
+    -moz-animation-delay: 14s;
+    -ms-animation-delay: 14s;
+    -o-animation-delay: 14s;
+    animation-delay: 14s;
+}
+
+#f-pink {
+     /*animation-delay*/
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    animation-delay: 15s;
+}
+
+#o-pink {
+     /*animation-delay*/
+    -webkit-animation-delay: 16s;
+    -moz-animation-delay: 16s;
+    -ms-animation-delay: 16s;
+    -o-animation-delay: 16s;
+    animation-delay: 16s;
+}
+
+h1.coming-header {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    opacity: 0;
+    margin-top: 0;
+
+    /*animation-name*/
+    -webkit-animation-name: fade-in;
+    -moz-animation-name: fade-in;
+    -ms-animation-name: fade-in;
+    -o-animation-name: fade-in;
+    animation-name: fade-in;
+
+    /*animation-duration*/
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+
+    /*animation-delay*/
+    -webkit-animation-delay: 17s;
+    -moz-animation-delay: 17s;
+    -ms-animation-delay: 17s;
+    -o-animation-delay: 17s;
+    animation-delay: 17s;
+}
+
+h1.coming-header.visible {
+    opacity: 1;
+}
+
+.logo {
+    opacity: 0;
+}
+
+.logo.visible {
+    opacity: 1;
+}
